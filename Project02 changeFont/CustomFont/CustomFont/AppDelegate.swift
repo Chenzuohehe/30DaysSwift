@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // 你好，我正在修改你的项目，哈哈哈哈哈
+        // 我又发现了个bug 我还不说，哈哈哈哈
         
         return true
     }
