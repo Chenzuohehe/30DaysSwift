@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="Snapch_Menu" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="Kil-2K-Ahv" id="PtT-hC-FzS"/>
+                <outlet property="tempImageView" destination="VUH-aA-PLp" id="mBi-J7-fy7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kil-2K-Ahv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUH-aA-PLp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Kil-2K-Ahv" secondAttribute="trailing" id="6xk-R0-PJI"/>
+                <constraint firstItem="Kil-2K-Ahv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="L0s-bs-ljM"/>
+                <constraint firstItem="VUH-aA-PLp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NAk-KI-54O"/>
+                <constraint firstAttribute="bottom" secondItem="Kil-2K-Ahv" secondAttribute="bottom" id="Wre-nu-6KQ"/>
+                <constraint firstAttribute="trailing" secondItem="VUH-aA-PLp" secondAttribute="trailing" id="i0c-L2-LB9"/>
+                <constraint firstItem="Kil-2K-Ahv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qSb-Ed-qVi"/>
+                <constraint firstItem="VUH-aA-PLp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tIS-BW-bLw"/>
+                <constraint firstAttribute="bottom" secondItem="VUH-aA-PLp" secondAttribute="bottom" id="xmQ-lA-Cbd"/>
+            </constraints>
+            <point key="canvasLocation" x="99.5" y="116.5"/>
+        </view>
+    </objects>
+</document>
