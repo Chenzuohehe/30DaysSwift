@@ -31,9 +31,7 @@ class HomeViewController: UIViewController {
 
     fileprivate struct Storyboard {
         static let CellIdentifier = "InterestCell"
-    }
-    
-
+    }    
 }
 
 extension HomeViewController : UICollectionViewDataSource {
