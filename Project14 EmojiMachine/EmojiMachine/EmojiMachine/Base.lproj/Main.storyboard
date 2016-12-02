@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiMachine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kmv-xI-5as">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="348"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="348" id="O63-1W-xPM"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmD-RB-e3G">
+                                <rect key="frame" x="46" y="362" width="284" height="44"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.76078431369999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="oew-mY-8IB"/>
+                                </constraints>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="goButtonDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBD-5w-wyB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LPo-w7-asE">
+                                <rect key="frame" x="0.0" y="437" width="375" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="5Fb-yp-xwe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kmv-xI-5as" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="06N-EA-RT1"/>
+                            <constraint firstAttribute="trailing" secondItem="LPo-w7-asE" secondAttribute="trailing" id="8wR-fQ-kjr"/>
+                            <constraint firstItem="LPo-w7-asE" firstAttribute="top" secondItem="wmD-RB-e3G" secondAttribute="bottom" constant="31" id="NlU-G2-5a5"/>
+                            <constraint firstItem="Kmv-xI-5as" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cMk-g8-Uuc"/>
+                            <constraint firstItem="LPo-w7-asE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cuz-3k-OvS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wmD-RB-e3G" secondAttribute="trailing" constant="29" id="hEI-RH-1If"/>
+                            <constraint firstAttribute="trailing" secondItem="Kmv-xI-5as" secondAttribute="trailing" id="je7-UE-wYT"/>
+                            <constraint firstItem="wmD-RB-e3G" firstAttribute="top" secondItem="Kmv-xI-5as" secondAttribute="bottom" constant="14" id="lQw-Q7-n8E"/>
+                            <constraint firstItem="wmD-RB-e3G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="whM-v1-nds"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emojiPickView" destination="Kmv-xI-5as" id="8pE-DL-VMo"/>
+                        <outlet property="goButton" destination="wmD-RB-e3G" id="rej-dJ-Hlo"/>
+                        <outlet property="resultLabel" destination="LPo-w7-asE" id="ZfM-vc-t62"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="96.7016491754123"/>
+        </scene>
+    </scenes>
+</document>
