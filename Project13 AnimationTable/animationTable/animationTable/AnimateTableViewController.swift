@@ -42,6 +42,24 @@ class AnimateTableViewController: UITableViewController {
             UIView.animate(withDuration: 1.0, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
                 cell.transform = CGAffineTransform(translationX: 0, y: 0);
             }, completion: nil)
+            /*
+             一共七个参数：
+             
+             duration
+             表示动画执行时间。
+             delay
+             动画延迟时间。
+             usingSpringWithDamping
+             表示弹性属性。
+             initialSpringVelocity
+             初速度。
+             options
+             可选项，一些可选的动画效果，包括重复等。
+             animations
+             表示执行的动画内容，包括透明度的渐变，移动，缩放。
+             completion
+             表示执行完动画后执行的内容。
+             */
         }
     }
     
