@@ -70,5 +70,4 @@ class MenuTransitionManager: NSObject ,UIViewControllerAnimatedTransitioning, UI
         isPresenting = true
         return self
     }
-
 }

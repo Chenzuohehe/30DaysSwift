@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TumblrMenu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4E79288C1DF64AF2004D8323</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E7928A01DF64AF2004D8323</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E7928AB1DF64AF2004D8323</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
