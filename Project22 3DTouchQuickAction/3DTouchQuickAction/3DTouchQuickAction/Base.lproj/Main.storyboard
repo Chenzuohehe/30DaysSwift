@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_DTouchQuickAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3D Touch Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nk-GT-vbE">
+                                <rect key="frame" x="52" y="323" width="271" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="vBM-Ck-J7a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="7nk-GT-vbE" secondAttribute="trailing" constant="36" id="XNl-6O-LPR"/>
+                            <constraint firstItem="7nk-GT-vbE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YRv-9m-2yD"/>
+                            <constraint firstItem="7nk-GT-vbE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="i5T-KW-epk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="111.99400299850076"/>
+        </scene>
+        <!--Run View Controller-->
+        <scene sceneID="jwk-X8-jyB">
+            <objects>
+                <viewController storyboardIdentifier="RunVC" id="NUk-Ni-mQA" customClass="RunViewController" customModule="_DTouchQuickAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXO-7b-eph"/>
+                        <viewControllerLayoutGuide type="bottom" id="gwE-Te-mwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7ch-AQ-1GK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nikeplus" translatesAutoresizingMaskIntoConstraints="NO" id="BTU-Ke-Tms">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93682062629999996" green="0.93713349099999999" blue="0.1168349236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gwE-Te-mwX" firstAttribute="top" secondItem="BTU-Ke-Tms" secondAttribute="bottom" id="2Bz-54-WDZ"/>
+                            <constraint firstItem="BTU-Ke-Tms" firstAttribute="leading" secondItem="7ch-AQ-1GK" secondAttribute="leading" id="5pc-BX-pc4"/>
+                            <constraint firstAttribute="trailing" secondItem="BTU-Ke-Tms" secondAttribute="trailing" id="AuB-ZJ-s1Z"/>
+                            <constraint firstItem="BTU-Ke-Tms" firstAttribute="top" secondItem="7ch-AQ-1GK" secondAttribute="top" id="SG7-1H-HdU"/>
+                            <constraint firstItem="BTU-Ke-Tms" firstAttribute="centerX" secondItem="7ch-AQ-1GK" secondAttribute="centerX" id="dQd-UG-3XF"/>
+                            <constraint firstItem="BTU-Ke-Tms" firstAttribute="centerY" secondItem="7ch-AQ-1GK" secondAttribute="centerY" id="utd-0q-Owx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="utd-0q-Owx"/>
+                                <exclude reference="dQd-UG-3XF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NzN-gK-NzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="112"/>
+        </scene>
+        <!--Scan View Controller-->
+        <scene sceneID="QAi-EG-5V1">
+            <objects>
+                <viewController storyboardIdentifier="ScanVC" id="scM-TQ-i4w" customClass="ScanViewController" customModule="_DTouchQuickAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5WR-BX-kk4"/>
+                        <viewControllerLayoutGuide type="bottom" id="VMc-Cw-lPt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kmw-st-MdE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wechat" translatesAutoresizingMaskIntoConstraints="NO" id="XgK-2M-GlU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.94574928280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VMc-Cw-lPt" firstAttribute="top" secondItem="XgK-2M-GlU" secondAttribute="bottom" id="027-FK-XHn"/>
+                            <constraint firstAttribute="trailing" secondItem="XgK-2M-GlU" secondAttribute="trailing" id="2Lv-VL-gZB"/>
+                            <constraint firstItem="XgK-2M-GlU" firstAttribute="leading" secondItem="Kmw-st-MdE" secondAttribute="leading" id="LuO-rQ-pfC"/>
+                            <constraint firstItem="XgK-2M-GlU" firstAttribute="top" secondItem="Kmw-st-MdE" secondAttribute="top" id="fWM-u2-7AA"/>
+                            <constraint firstItem="XgK-2M-GlU" firstAttribute="centerX" secondItem="Kmw-st-MdE" secondAttribute="centerX" id="olX-Ex-IIX"/>
+                            <constraint firstItem="XgK-2M-GlU" firstAttribute="centerY" secondItem="Kmw-st-MdE" secondAttribute="centerY" id="uip-5e-gCh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="olX-Ex-IIX"/>
+                                <exclude reference="uip-5e-gCh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BfQ-W4-bbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="112"/>
+        </scene>
+        <!--Switch View Controller-->
+        <scene sceneID="K4i-p5-7bL">
+            <objects>
+                <viewController storyboardIdentifier="WiFiVC" id="dLK-e8-BPB" customClass="SwitchViewController" customModule="_DTouchQuickAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VRI-La-eWN"/>
+                        <viewControllerLayoutGuide type="bottom" id="byh-ZG-COg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yPJ-0J-rPo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting" translatesAutoresizingMaskIntoConstraints="NO" id="y0K-bU-5tD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89466416839999996" green="0.026873899619999999" blue="0.089954406020000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="byh-ZG-COg" firstAttribute="top" secondItem="y0K-bU-5tD" secondAttribute="bottom" id="3yB-rB-luk"/>
+                            <constraint firstAttribute="trailing" secondItem="y0K-bU-5tD" secondAttribute="trailing" id="Fyt-q2-Ubr"/>
+                            <constraint firstItem="y0K-bU-5tD" firstAttribute="leading" secondItem="yPJ-0J-rPo" secondAttribute="leading" id="ccY-o6-JsN"/>
+                            <constraint firstItem="y0K-bU-5tD" firstAttribute="top" secondItem="yPJ-0J-rPo" secondAttribute="top" id="iFf-rp-rSr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RNV-8p-xGd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2055" y="112"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nikeplus" width="375" height="667"/>
+        <image name="setting" width="375" height="667"/>
+        <image name="wechat" width="375" height="667"/>
+    </resources>
+</document>
