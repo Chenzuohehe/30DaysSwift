@@ -26,7 +26,6 @@ class OpacityViewController: UIViewController {
         UIView.animate(withDuration: 2, animations: {
             
             self.exampleImageView.alpha = 0
-            
         })
     }
 
