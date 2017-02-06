@@ -14,8 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var data = [
         video(image: "videoScreenshot01", title: "Introduce 3DS Mario", source: "Youtube - 06:32"),
-        video(image: "videoScreenshot02", title: "Emoji Among Us", source: "Vimeo - 3:34"),
-        video(image: "videoScreenshot03", title: "Seals Documentary", source: "Vine - 00:06"),
+        video(image: "videoScreenshot02", title: "Emoji Among Us", source: "Vimeo - 3:34Vine - 00:06Vine - 00:06Vine - 00:06Vine - 00:06Vine - 00:06Vine - 00:06"),
+        video(image: "videoScreenshot03", title: "Seals DocumentarySeals DocumentarySeals Documentary", source: "Vine - 00:06"),
         video(image: "videoScreenshot04", title: "Adventure Time", source: "Youtube - 02:39"),
         video(image: "videoScreenshot05", title: "Facebook HQ", source: "Facebook - 10:20"),
         video(image: "videoScreenshot06", title: "Lijiang Lugu Lake", source: "Allen - 20:30")
@@ -54,6 +54,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return data.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell", for: indexPath) as! VideoTableViewCell
         let video = data[indexPath.row]
         

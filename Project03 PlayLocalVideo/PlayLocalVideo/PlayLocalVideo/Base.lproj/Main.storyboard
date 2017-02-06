@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZmF-vG-fN9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZmF-vG-fN9">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -66,20 +66,18 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Among Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8q-TS-GBv">
-                                                    <rect key="frame" x="128" y="173" width="119" height="20"/>
+                                                    <rect key="frame" x="134.5" y="173" width="106" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="dq9-zb-Ja0"/>
-                                                        <constraint firstAttribute="width" constant="119" id="xYy-6v-HHw"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Youtube - 06:32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lci-rD-CFW">
-                                                    <rect key="frame" x="151" y="197" width="73" height="14"/>
+                                                    <rect key="frame" x="148" y="197" width="79" height="14"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="14" id="GJY-c4-9Pt"/>
-                                                        <constraint firstAttribute="width" constant="73" id="Gqn-tE-QXT"/>
+                                                        <constraint firstAttribute="height" constant="14" id="6gS-hJ-ahB"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                     <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -87,15 +85,15 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="top" secondItem="w8q-TS-GBv" secondAttribute="bottom" constant="4" id="6Yh-RU-Tpz"/>
-                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="centerX" secondItem="ROU-7J-k2L" secondAttribute="centerX" id="6i2-6O-B7t"/>
                                                 <constraint firstItem="w8q-TS-GBv" firstAttribute="top" secondItem="9Qq-vt-GLb" secondAttribute="bottom" constant="13" id="U96-Qu-2TB"/>
                                                 <constraint firstItem="w8q-TS-GBv" firstAttribute="centerX" secondItem="ROU-7J-k2L" secondAttribute="centerX" id="UFu-at-57i"/>
+                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="bottom" secondItem="YZU-N7-1up" secondAttribute="bottomMargin" id="Xfj-6M-iaa"/>
+                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="top" secondItem="w8q-TS-GBv" secondAttribute="bottom" constant="4" id="YYd-Qw-Dgn"/>
                                                 <constraint firstItem="ROU-7J-k2L" firstAttribute="top" secondItem="YZU-N7-1up" secondAttribute="top" id="Zdj-Tv-JA0"/>
                                                 <constraint firstItem="9Qq-vt-GLb" firstAttribute="centerX" secondItem="ROU-7J-k2L" secondAttribute="centerX" id="a4v-L6-nDT"/>
                                                 <constraint firstAttribute="trailing" secondItem="ROU-7J-k2L" secondAttribute="trailing" id="bYO-Me-qpv"/>
                                                 <constraint firstItem="ROU-7J-k2L" firstAttribute="leading" secondItem="YZU-N7-1up" secondAttribute="leading" id="bZZ-Tq-rvp"/>
-                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="bottom" secondItem="YZU-N7-1up" secondAttribute="bottomMargin" id="h4E-uR-Rsr"/>
+                                                <constraint firstItem="Lci-rD-CFW" firstAttribute="centerX" secondItem="ROU-7J-k2L" secondAttribute="centerX" id="nW6-RK-AwL"/>
                                                 <constraint firstAttribute="bottom" secondItem="ROU-7J-k2L" secondAttribute="bottom" constant="-1" id="wV8-eW-GLu"/>
                                             </constraints>
                                         </tableViewCellContentView>
